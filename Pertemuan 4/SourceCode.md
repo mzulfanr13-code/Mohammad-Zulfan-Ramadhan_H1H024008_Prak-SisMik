@@ -92,8 +92,8 @@ void loop() {
   pwm = map(nilaiADC,
             0,   // isi nilai minimum ADC
             1023,   // isi nilai maksimum ADC
-            50,   // isi PWM minimum
-            200);  // isi PWM maksimum
+            0,   // isi PWM minimum
+            255);  // isi PWM maksimum
 
   // ===================== OUTPUT PWM =====================
   // Kirim sinyal PWM ke LED (mengatur kecerahan)
