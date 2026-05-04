@@ -1,4 +1,5 @@
 Percobaan 1:
+```
 #include <Servo.h> // library untuk servo motor
 
 Servo myservo; // membuat objek servo
@@ -53,9 +54,10 @@ void loop() {
   // Delay untuk memberi waktu servo bergerak stabil
   delay(1000); // isi dalam milidetik
 }
-
+```
 
 Percobaan 2:
+```
 #include <Arduino.h> // library dasar Arduino (tidak wajib diubah)
 
 // ===================== PIN SETUP =====================
@@ -109,3 +111,4 @@ void loop() {
   // Delay untuk menstabilkan pembacaan dan tampilan data
   delay(100); // isi dalam milidetik (contoh 50)
 }
+```
